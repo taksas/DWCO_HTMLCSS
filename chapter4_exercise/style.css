@@ -1,0 +1,55 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    width: 100%; /* 横幅いっぱい */
+    height: 50px; /* 高さ50px */
+    background-color: red; /* 背景色red */
+  }
+
+
+
+  .main-visual {
+    width: 100%; /* 横幅いっぱい */
+    height: 500px; /* 高さ300px */
+    background-color: orange; /* 背景色orange */
+  }
+
+
+
+  .main {
+    width: 960px; /* 横幅960px */
+    height: 1400px; /* 高さ1400px */
+    display: flex; /* Flexboxの利用 */
+    justify-content: center; /* 子要素の横並び・中央寄せ */
+    margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+    
+  }
+
+  .blog {
+    width: 500px; /* 横幅500px */
+    height: 1400px; /* 高さ1400px */
+    background-color: limegreen; /* 背景色limegreen */
+  }
+  
+  .sidebar1 {
+    width: 230px; /* 横幅230px */
+    height: 1400px; /* 高さ1400px */
+    background-color: palegreen; /* 背景色palegreen */
+  }
+  .sidebar2 {
+    width: 230px; /* 横幅230px */
+    height: 1400px; /* 高さ1400px */
+    background-color: palegreen; /* 背景色palegreen */
+  }
+
+
+  .footer {
+    width: 100%; /* 横幅いっぱい */
+    height: 100px; /* 高さ100px */
+    background-color: blue; /* 背景色blue */
+  }
