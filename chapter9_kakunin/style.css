@@ -1,0 +1,17 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+
+  .social {
+    font-size: 32px;
+  }
