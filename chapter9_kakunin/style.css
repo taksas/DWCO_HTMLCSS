@@ -12,6 +12,9 @@
 
 
 
-  .social {
+  .position {
     font-size: 32px;
+    position: absolute; /* headerの左上を基準に絶対位置で指定する */
+    top: 100px; /* headerの左上から100px下側へ移動する */
+    right: 40px; /* headerの右上から40px左側へ移動する */
   }
