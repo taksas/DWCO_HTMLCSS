@@ -9,12 +9,28 @@
   a {
     text-decoration: none;
   }
+
+  header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+  }
   
   header {
     width: 90%; /* 横幅90% */
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
+    position: relative; /* #socialの基準位置を相対位置へ変更する */
+  }
+
+  .social {
+    position: absolute; /* headerの左上を基準に絶対位置で指定する */
+    top: 22px; /* headerの左上から22px下側へ移動する */
+    right: 22px; /* headerの右上から22px左側へ移動する */
+  }
+
+  .social i {
+    display: inline-block;
+    margin-left: 20px;
   }
 
   header .heading { /* headerタグ内のheadingクラスにのみ反映される */
@@ -133,7 +149,7 @@
     border-radius: 3px;
     line-height: 30px;
   }
-  
+
   .sidebar {
     width: 230px;
   }
